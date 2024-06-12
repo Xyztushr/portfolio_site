@@ -1,15 +1,15 @@
 @font-face {
     font-family: Monu;
-    src: url('/asset/fonts/MonumentExtended-Regular.otf');
+    src: url('MonumentExtended-Regular.woff2');
 }
 
 @font-face {
     font-family: gil;
-    src: url('/asset/fonts/Gilroy-Regular.ttf');
+    src: url('Gilroy-Regular.woff2');
 }
 @font-face {
     font-family: tiny;
-    src: url("/asset/fonts/Tiny5-Regular.ttf");
+    src: url("Tiny5-Regular.woff2");
 }
 * {
     margin: 0;

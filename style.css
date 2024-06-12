@@ -1,15 +1,15 @@
 @font-face {
     font-family: Monu;
-    src: url('asset/fonts/MonumentExtended-Regular.woff2');
+    src: url('MonumentExtended-Regular.woff2');
 }
 
 @font-face {
     font-family: gil;
-    src: url('asset/fonts/Gilroy-Regular.woff2');
+    src: url('Gilroy-Regular.woff2');
 }
 @font-face {
     font-family: tiny;
-    src: url("asset/fonts/Tiny5-Regular.woff2");
+    src: url("Tiny5-Regular.woff2");
 }
 * {
     margin: 0;
@@ -141,7 +141,7 @@ nav a {
     height: 350px;
     background-color: black;
     border-radius: 50%;
-    background: url('asset/tusharpic.webp');
+    background: url('tusharpic.webp');
     background-position: center;
     background-size: cover;
     border: 10px white solid;
