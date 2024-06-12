@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Monu;
+    src: url('/asset/fonts/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family: gil;
+    src: url('/asset/fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+    font-family: tiny;
+    src: url("/asset/fonts/Tiny5-Regular.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: beige;   
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    height: 2px;
+    background: transparent;
+    }
+    body::-webkit-scrollbar-thumb{
+    background-color: #000;
+  
+}
+header {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+    width: 100;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    font-family: gil;
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    border: 1px solid white;
+    text-decoration: none;
+    font-weight: 600;
+}
+#logo{
+    margin-right: 90px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-family: tiny;
+    font-size: 3vw;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+#blogarea{
+    width: 100%;
+    height:calc(100% - 70px);
+    display: flex;
+
+}
+#blogs{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.firstblog{
+    border: 3px solid black;
+    width: 95%;
+    height: 30%;
+    background-color: white;
+    font-family: gil;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+}
+.im{
+    width: 30%;
+    height: 90%;
+    
+    border: 2px solid black;
+}
+.im img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.textblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    padding: 0px 30px;
+}
+.textblog h1{
+
+}
+aside{
+    width: 30%;
+    height: 90%;
+    margin: 20px 10px;
+    background-color: white;
+    font-family: gil;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+}
+#logopic{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+#logopic img{
+    width: 100%;
+    height: 100%;
+}
+#textee{
+    letter-spacing: 3px;
+
+    width: 70%;
+}
+#logoicons{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoicons i{
+font-size: 40px;
+}
