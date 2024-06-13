@@ -7,37 +7,44 @@
     font-family: gil;
     src: url('Gilroy-Regular.woff2');
 }
+
 @font-face {
     font-family: tiny;
     src: url("Tiny5-Regular.woff2");
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 
 html,
 body {
     width: 100%;
     height: 100%;
-    background-color: beige;   
+
 }
 
 main {
+    background: beige;
     width: 100%;
     height: 100%;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     width: 10px;
     height: 2px;
     background: transparent;
-    }
-    body::-webkit-scrollbar-thumb{
-    background-color: #000;
-  
 }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000;
+
+}
+
 header {
     width: 100%;
     height: 100%;
@@ -52,7 +59,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
     overflow: hidden;
 }
 
@@ -69,10 +76,9 @@ nav a {
     text-decoration: none;
     font-weight: 600;
 }
-#logo{
+
+#logo {
     margin-right: 90px;
-    /* border-top: 8px rebeccapurple solid;
-    border-bottom: 8px rebeccapurple solid; */
     height: 100%;
     width: 50%;
     text-align: center;
@@ -80,10 +86,11 @@ nav a {
     font-family: tiny;
     font-size: 3vw;
     display: flex;
-     justify-content: center;
-     align-items: center;
-    
+    justify-content: center;
+    align-items: center;
+
 }
+
 #head-main {
     width: 100%;
     height: calc(100% - 70px);
@@ -92,11 +99,9 @@ nav a {
 }
 
 #hleft {
-    
     flex-direction: column;
     width: 50%;
     height: 100%;
-    /* background-color: aqua; */
     color: black;
     font-family: gil;
     display: flex;
@@ -104,30 +109,34 @@ nav a {
     justify-content: center;
     line-height: 13vh;
 }
-#hleft h1{
+
+#hleft h1 {
     font-size: 4vw;
 }
-#hleft h2{
+
+#hleft h2 {
     font-size: 3vw;
 }
-#hleft h3{
+
+#hleft h3 {
     font-size: 3.5vw;
 }
 
 
-#downloadbtn{
+#downloadbtn {
     font-family: tiny;
     color: black;
     font-size: 25px;
     background-color: white;
     width: 100%;
     height: 8vh;
-    border-radius:0px 50px;
+    border-radius: 0px 50px;
     border: 3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #hright {
     width: 50%;
     height: 100%;
@@ -136,7 +145,8 @@ nav a {
     justify-content: center;
     align-items: center;
 }
-#image{
+
+#image {
     width: 350px;
     height: 350px;
     background-color: black;
@@ -150,49 +160,84 @@ nav a {
     justify-content: center;
     align-items: center;
 }
-#image:hover{
-    transition: all ease 1s;
-    border-color: violet;
-}
-#linx{
+
+#linx {
+    opacity: 0;
     position: absolute;
     width: 130%;
     height: 30px;
-   
+
 }
-#linx{
+
+#linx {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 3vw;
+    opacity: 0;
 }
-#liny{
+
+#liny {
+    opacity: 0;
     position: absolute;
     width: 130%;
     height: 50px;
-   rotate: 90deg;
+    rotate: 90deg;
 }
-#liny{
+
+#liny {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 3vw;
-   
+
 }
-#liny i{
+#liny i:hover {
+    color: white;
+    background-color: blueviolet;
+}
+#linx i:hover {
+    color: white;
+    background-color: blueviolet;
+}
+#liny i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    border: black 3px solid;
     rotate: -90deg;
+    color: black;
 }
-#mid{
+#linx i {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    border: black 3px solid;
+}
+
+#mid {
     width: 100%;
     height: fit-content;
     background: beige;
+    overflow: hidden;
 }
-#uppertext{
+
+#uppertext {
     width: 100%;
-    font-family:tiny ;
+    font-family: tiny;
     text-align: center;
 }
-.elem{
+
+.elem {
     border-radius: 20px;
     border: 5px black solid;
     width: 35vw;
@@ -204,24 +249,27 @@ nav a {
     align-items: center;
 }
 
-.innerelem{
+.innerelem {
     width: 85%;
     height: 70%;
     border: 5px black solid;
     background-color: black;
 }
-.innerelem img{
+
+.innerelem img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
-    
+
 }
-.innerelem img:hover{
+
+.innerelem img:hover {
     opacity: 1;
     transition: all ease-in-out 0.5s;
-} 
-.gola{
+}
+
+.gola {
     width: 20px;
     height: 20px;
     background-color: black;
@@ -229,7 +277,7 @@ nav a {
     margin-top: 30px;
 }
 
-#first{
+#first {
     position: relative;
     padding: 25px;
     width: 100%;
@@ -237,62 +285,71 @@ nav a {
     justify-content: space-between;
     align-items: center;
 }
-.texty{
+
+.texty {
     position: absolute;
-    top:37%;
+    top: 37%;
     left: 15%;
     font-size: 30px;
-    color: white ;
+    color: white;
     font-family: gil;
     z-index: 1;
 }
-#second{
+
+#second {
     padding: 25px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#third{
+
+#third {
     padding: 25px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#uppertext h1{
+
+#uppertext h1 {
     font-size: 4vw
 }
-.text{
+
+.text {
     width: 50%;
     font-family: Monu;
     font-weight: 200;
     letter-spacing: 2px;
     line-height: 40px;
 }
-#skill{
+
+#skill {
     width: 100%;
     height: 100%;
     background-color: beige;
 }
-#skillhead{
+
+#skillhead {
     width: 100%;
     text-align: center;
     font-size: 2vw;
     height: 50px;
     font-family: tiny;
 }
-#skillbody{
+
+#skillbody {
     width: 100%;
     height: calc(100% - 50px);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.lean{
+
+.lean {
     width: 300px;
     height: 400px;
-    background-color:white;
+    background-color: white;
     border-radius: 15px;
     border: #000 solid 3px;
     display: flex;
@@ -300,15 +357,13 @@ nav a {
     align-items: center;
     flex-direction: column;
 }
-.lean:hover{
-    color: black;
-    background-color: grey;
-}
-.lean img{
+
+.lean img {
     width: 90%;
     height: 70%;
 }
-.percent{
+
+.percent {
     text-align: center;
     border: #000 2px solid;
     width: 90%;
@@ -317,24 +372,28 @@ nav a {
     font-family: gil;
 
 }
-footer{
+
+footer {
     width: 100%;
     height: 20vh;
     background-color: #000;
     color: white;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-    }
-    #name{
-        
-        font-family: Monu;
 }
-#name h1 span{
+
+#name {
+
+    font-family: Monu;
+}
+
+#name h1 span {
     color: violet;
     font-size: 13px;
 }
-#contact{
+
+#contact {
     font-family: gil;
 }
