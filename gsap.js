@@ -32,11 +32,9 @@ secondtl.from("#skill .lean",{
     stagger:1,
     duration:2,
     scrollTrigger:{
-        scroller:'body',
         scrub:2,
         start:"70%",
         end:"100%",
-        markers:true
     }
 })
 secondtl.from(".elem, .text",{
