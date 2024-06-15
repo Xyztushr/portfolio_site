@@ -1,3 +1,4 @@
+
 const time = gsap.timeline()
 
 
@@ -26,7 +27,7 @@ time.to("#liny",{
     width:"140%"
 })
 const secondtl = gsap.timeline()
-secondtl.from("#skill .lean",{
+secondtl.from(".container .skill-box",{
     opacity:0,
     x:50,
     stagger:1,

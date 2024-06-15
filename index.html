@@ -12,12 +12,27 @@
 </head>
 <body>
     <main>
+        <div id="navigation">
+            <div id="logo">Tushar</div>
+            <i onclick="Close()" class="ri-close-circle-line"></i>
+            <i onclick="Open();" class="ri-menu-line"></i>
+        </div>
+        <div id="nav-menu">
+            <div id="resmenu">
+                <a href="#">home</a >
+                    <br>
+                <a  href="blog.html">blog</a >
+                    <br>
+                <a  href="contactme.html">contact ME</a >
+            </div>
+        </div>
         <header>
+            
             <nav>
                 <div id="logo">Tushar</div>
-                <a href="">Home</a>
+                <a href="index.html">Home</a>
                 <a href="blog.html">Blog</a>
-                <a href="">About Me</a>   
+                <a href="contactme.html">Contact Me</a>   
             </nav>
             <div id="head-main">
                 <div id="hleft">
@@ -26,7 +41,7 @@
                         <h1>Hi There!</h1>
                         <h2>I'm Tushar Vishwakarma</h2>
                         <h3>I'm Front End Developer !</h3>
-                        <a href="/ARTI.pdf" download>  <div id="downloadbtn">
+                        <a href="tusharvishwakarmaresume.pdf" download>  <div id="downloadbtn">
                         Download Cv
                     </div></a>
                     </div>
@@ -46,27 +61,25 @@
             </div>
         </header>
         <hr>
-        <div id="skill">
-            <div id="skillhead"><h1>My Skills</h1></div>
-            <div id="skillbody">
-
-                <div class="lean">
-                    <h6>01</h6>
-                    <img src="html.webp" alt="html logo">
-                    <div class="percent"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt amet provident?</p></div>
-                    </div>
-                <div class="lean">
-                    <h6>02</h6>
-                    <img src="css.webp" alt="html logo">
-                    <div class="percent"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt amet provident?</p></div>
-                    </div>
-                <div class="lean">
-                    <h6>03</h6>
-                    <img src="javascript.webp" alt="html logo">
-                    <div class="percent"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt amet provident?</p></div>
-                    </div>
-                </div>
-                </div>
+        <div id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="skill-box">
+                <img src="html.webp" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-box">
+                <img src="css.webp" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-box">
+                <img src="Tailwind CSS.svg" alt="Tailwind CSS">
+                <h3>Tailwind CSS</h3>
+            </div>
+            <div class="skill-box">
+                <img src="javascript.webp" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+           
         </div>
         <hr>
         <div id="mid">
@@ -127,12 +140,6 @@
         </main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="locomotive-scroll.min.js"></script>
-<script>
-    (function () {
-        var scroll = new LocomotiveScroll();
-    })();
-</script>
         <script src="gsap.js"></script>
         <script src="script.js"></script>
 </body>
