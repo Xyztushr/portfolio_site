@@ -38,10 +38,3 @@ secondtl.from(".container .skill-box",{
         end:"100%",
     }
 })
-secondtl.from(".elem, .text",{
-    repeat:-1,
-    yoyo:true,
-    duration:5,
-    y:20
-
-})
