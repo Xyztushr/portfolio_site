@@ -31,10 +31,11 @@ secondtl.from(".container .skill-box",{
     opacity:0,
     x:50,
     stagger:1,
+    markers:true,
     duration:2,
     scrollTrigger:{
         scrub:2,
-        start:"70%",
+        start:"50%",
         end:"100%",
     }
 })
