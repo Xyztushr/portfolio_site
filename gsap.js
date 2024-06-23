@@ -33,9 +33,5 @@ secondtl.from(".container .skill-box",{
     stagger:1,
     markers:true,
     duration:2,
-    scrollTrigger:{
-        scrub:2,
-        start:"50%",
-        end:"100%",
-    }
+    scrollTrigger:true
 })
