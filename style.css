@@ -419,19 +419,38 @@ footer {
     background: beige;
     text-align: center;
 }
-.skill-box:hover{
-    transition: 2s;
-    transform: scaleZ(20);
-    width: 500px;
-}
 #skills h2 {
     font-size: 4.5em;
     margin: 20px;
     font-family: tiny;
 
 }
-
+#skillbox1:hover{
+    transition: 0.5s;
+    border: 5px solid black;
+    background: #ffffff53;
+    transform: scale(1.1);
+}
+#skillbox2:hover{
+    transition: 0.5s;
+    border: 5px solid black;
+    background: #6d6d6d74;
+    transform: scale(1.1);
+}
+#skillbox3:hover{
+    transition: 0.5s;
+    border: 5px solid black;
+    background: #ffffff53;
+    transform: scale(1.1);
+}
+#skillbox4:hover{
+    transition: 0.5s;
+    border: 5px solid black;
+    background: #ffffff53;
+    transform: scale(1.1);
+}
 .skill-box {
+    cursor: pointer;
     transition: 2s;
     display: inline-block;
     width: 400px;
