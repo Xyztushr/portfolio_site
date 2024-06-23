@@ -26,12 +26,4 @@ time.to("#liny",{
     duration:1,
     width:"140%"
 })
-const secondtl = gsap.timeline()
-secondtl.from(".container .skill-box",{
-    opacity:0,
-    x:50,
-    stagger:1,
-    markers:true,
-    duration:2,
-    scrollTrigger:true
-})
+
