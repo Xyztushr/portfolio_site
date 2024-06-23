@@ -28,7 +28,6 @@ time.to("#liny",{
 })
 const secondtl = gsap.timeline()
 secondtl.from(".container .skill-box",{
-    opacity:0,
     x:50,
     stagger:1,
     duration:2,
