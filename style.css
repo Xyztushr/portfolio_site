@@ -12,6 +12,7 @@
     font-family: tiny;
     src: url("Tiny5-Regular.woff2");
 }
+<<<<<<< HEAD
 #role-text  h3 {
       font-size: 2rem;
       white-space: nowrap;
@@ -25,6 +26,9 @@
       0%, 100% { border-color: transparent; }
       50% { border-color: white; }
     }
+=======
+
+>>>>>>> 57c874deaf5a2f5c749bc98d881f2a3840535336
 * {
     margin: 0;
     padding: 0;

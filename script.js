@@ -12,6 +12,7 @@ const Close = () =>{
     nav.style.display = "none"
 }
 
+<<<<<<< HEAD
   const roles = [
       "FrontEnd Dev!",
       "Data Analyst!",
@@ -61,3 +62,5 @@ const Close = () =>{
     }
 
     type(); // start
+=======
+>>>>>>> 57c874deaf5a2f5c749bc98d881f2a3840535336
