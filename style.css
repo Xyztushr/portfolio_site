@@ -535,7 +535,7 @@ footer {
     }
     
     #hleft h2 {
-        font-size: 6vw;
+        font-size: 8vw;
     }
     
     #hleft h3 {
@@ -549,8 +549,8 @@ footer {
         height: 50%;
     }
     #image {
-        width: 200px;
-        height: 200px;
+        width: 70vw;
+        height: 32.5vh;
     }
     
     #liny i {
