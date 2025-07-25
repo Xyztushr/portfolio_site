@@ -539,7 +539,7 @@ footer {
     }
     
     #hleft h3 {
-        font-size: 7.5vw;
+        font-size: 10vw;
     }
     
  
@@ -630,6 +630,9 @@ footer {
         flex-direction: column-reverse;
         padding: 0px ;
     }
+    #downloadbtn {
+    width: 100vw;
+}
     }
     
   
