@@ -12,10 +12,7 @@
     font-family: tiny;
     src: url("Tiny5-Regular.woff2");
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 57c874deaf5a2f5c749bc98d881f2a3840535336
 * {
     margin: 0;
     padding: 0;
@@ -91,21 +88,20 @@ nav a {
 }
 
 header {
+    padding: 1vw;
     width: 100%;
     height: calc(100% - 70px);
-    display: flex;
-    margin-top: 10px;
 }
 
 #left {
-    width: 70%;
+    width:  100%;
     height: 100%;
     display: flex;
-    justify-content: center;
 }
 
 .topic {
-    width: 90%;
+    padding: 2vw;
+    width: 80%;
     height: fit-content;
     background-color: white;
     font-family: gil;
@@ -113,44 +109,22 @@ header {
     border: 3px solid black;
     border-radius: 10px;
     justify-content: center;
-<<<<<<< HEAD
     flex-direction: row;
     align-items: center;
-    text-align: left;
-    padding: 20px;
-}
-.topic a{
-    color: black;
-}
-.topic a:hover{
-    color: blue;
-    text-decoration: underline;
+    /* text-align: center; */
 }
 
 .topic img {
     width: fit-content;
-    height: 20vh;
-=======
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.topic img {
-    width: 80%;
-    height: 400px;
->>>>>>> 57c874deaf5a2f5c749bc98d881f2a3840535336
+    height: 7vw;
     object-fit: cover;
     border: 4px black solid;
 }
 
-<<<<<<< HEAD
-=======
 .topic h3 {
     line-height: 30px;
 }
 
->>>>>>> 57c874deaf5a2f5c749bc98d881f2a3840535336
 #right {
     width: 30%;
     height: fit-content;
@@ -252,6 +226,7 @@ header {
     }
 
     header {
+        display: flex;
         flex-direction: column;
     }
 
@@ -263,19 +238,20 @@ header {
 
     #left {
         height: auto;
+        flex-direction: column;
     }
-<<<<<<< HEAD
-    .topic{
-        flex-direction: column-reverse;
-        font-size: 2vw;
-    }
-=======
 
->>>>>>> 57c874deaf5a2f5c749bc98d881f2a3840535336
     #right {
         margin-top: 20px;
         border: 3px solid black;
     }
+    .topic {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 20px;
+}
 }
 
 @media (max-width: 480px) {
